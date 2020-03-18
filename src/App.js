@@ -11,7 +11,7 @@ import "./App.css";
 import PostsPage from "./components/PostsContainer/PostsPage";
 import SearchBar from "./components/SearchBar/SearchBarContainer";
 
-import dummyData from "./dummy-data";
+// import dummyData from "./dummy-data";
 
 
 
@@ -21,7 +21,7 @@ const App = () => {
     <div className="App">
         {/* Add imported components here to render them */}
         <SearchBar /> 
-      <PostsPage data ={dummyData} />
+      <PostsPage />
       
     </div>
   );
